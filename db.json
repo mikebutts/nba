@@ -85,7 +85,7 @@
       }
     ]
   },
-  "subcriptions": [
+  "subscriptions": [
     {
       "email": "fer@gmail.com",
       "id": 1
@@ -117,6 +117,10 @@
     {
       "email": "fernando@gmail.com",
       "id": 8
+    },
+    {
+      "email": "testy12@emails.com",
+      "id": 9
     }
   ],
   "teams": [
