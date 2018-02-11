@@ -4,8 +4,9 @@ import React, { Component } from 'react';
 import Featured from './Featured'
 import Subscriptions from './Subscriptions.js'
 import Blocks from './Blocks.js'
+import Poll from './Poll';
 
-const URL_HOME = 'http://localhost:3004/home'
+const URL_HOME = 'https://jsonblob.com/4adb9ca6-0ec6-11e8-b7a5-3bc723efc0de'
 
 class Home extends Component {
     constructor(props){
@@ -24,6 +25,7 @@ class Home extends Component {
                 home: json
             })
         })
+     console.log(this.state.home)        
     }
     render(){
         return(
@@ -31,6 +33,7 @@ class Home extends Component {
                 <Featured slides={this.state.home.slider}/>
                 <Subscriptions/>
                 <Blocks blocks={this.state.home.blocks} />
+                <Poll/>
       
             </div>
    
