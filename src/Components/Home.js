@@ -6,7 +6,7 @@ import Subscriptions from './Subscriptions.js'
 import Blocks from './Blocks.js'
 import Poll from './Poll';
 
-const URL_HOME = 'https://jsonblob.com/4adb9ca6-0ec6-11e8-b7a5-3bc723efc0de'
+const URL_HOME = 'https://json-server-heroku-lwqzpxahne.now.sh/home'
 
 class Home extends Component {
     constructor(props){
